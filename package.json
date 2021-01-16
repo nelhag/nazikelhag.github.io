@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest test",
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "name": "nelhag.github.io",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazikelhag/nelhag.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nazikelhag/nelhag.github.io/issues"
+  },
+  "homepage": "https://github.com/nazikelhag/nelhag.github.io#readme"
+}
