@@ -1,9 +1,9 @@
 
 const mainHeader = document.querySelector('.main-header')
-const Toggling = require('../utils/Toggling')
-const Slide=require('../utils/Slide')
-const Tabs=require('../utils/Tabs')
-const Contact=require('../utils/Contact')
+const Toggling = require('nelhag.github.io/js/utils/Toggling.js')
+const Slide=require('nelhag.github.io/js/utils/Slide.js')
+const Tabs=require('nelhag.github.io/js/utils/Tabs.js')
+const Contact=require('nelhag.github.io/js/utils/Contact.js')
 const togglings = new Toggling()
 togglings.toggleTheme()
 const slides = new Slide()
