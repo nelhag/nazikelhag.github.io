@@ -1,9 +1,9 @@
 
 const mainHeader = document.querySelector('.main-header')
-const Toggling = require('./utils/Toggling')
-const Slide=require('./utils/Slide')
-const Tabs=require('./utils/Tabs')
-const Contact=require('./utils/Contact')
+const Toggling = require('../utils/Toggling')
+const Slide=require('../utils/Slide')
+const Tabs=require('../utils/Tabs')
+const Contact=require('../utils/Contact')
 const togglings = new Toggling()
 togglings.toggleTheme()
 const slides = new Slide()
